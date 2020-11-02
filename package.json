@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "gatsby develop --open",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit"
   },
   "husky": {
     "hooks": {
